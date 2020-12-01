@@ -1,0 +1,56 @@
+html{
+   scroll-behavior: smooth; 
+}
+
+body{
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.container{
+    margin: 45px;
+
+}
+
+h1{
+    background-color: rgb(255, 72, 0);
+    border: 5px solid yellowgreen;
+    padding: 14px;
+    font-family: 'Playfair Display', cursive;
+    color: #eeffb8;
+    padding-left: 34px;
+}
+
+img{
+    width: 400px;
+    display: none;
+}
+
+.card{
+    background-image: url(../img/colors.jpg);
+    height: 230px;
+    width: 400px;
+    background-size: cover;
+    padding: 50px;
+    color: whitesmoke;
+    text-shadow: 1px 1px #222;
+}
+
+.card a {
+    color: rgb(145, 236, 145);
+    background-color: mediumblue;
+}
+
+.seperator{
+    height: 456px;
+
+}
+
+footer{
+    height: 345px;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
